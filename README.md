@@ -23,7 +23,7 @@
             <td>726. 原子的数量</td>
             <td>O(n)</td>
             <td>O(n)</td>
-            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/721.md">hard</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/726.md">hard</a></td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/726-stackandmap.cpp">cpp(栈与哈希)</a></td>
         </tr>
     </tbody>
