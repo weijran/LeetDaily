@@ -20,7 +20,7 @@
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/721-dfs.cpp">cpp(DFS)</a></td>
         </tr>
         <tr>
-            <td>726. 原子的数量</td>
+            <td><a href="https://leetcode.cn/problems/number-of-atoms/description/">726. 原子的数量</td>
             <td>O(n)</td>
             <td>O(n)</td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/726.md">hard</a></td>
