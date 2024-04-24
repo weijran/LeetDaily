@@ -14,7 +14,7 @@
             <td>721. 合并账户</td>
             <td></td>
             <td></td>
-            <td>c++</td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/721-1.cpp">cpp</a></td>
         </tr>
         <tr>
             <td>128. 最长连续序列</td>
