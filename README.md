@@ -12,6 +12,14 @@
     </thead>
     <tbody>
         <tr>
+            <td><a href="https://leetcode.cn/problems/substring-with-concatenation-of-all-words/description/">30. 串联所有单词的子串</td>
+            <td>O(mn)</td>
+            <td>O(mn)</td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/30.md">hard</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/30-bruteforce.cpp">cpp(暴力)</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/30-slidingwindow.cpp">cpp(滑窗)</a></td>
+        </tr>
+        <tr>
             <td><a href="https://leetcode.cn/problems/maximal-square/">221. 最大正方形</td>
             <td>O(nn)</td>
             <td>O(nn)</td>
