@@ -12,6 +12,13 @@
     </thead>
     <tbody>
         <tr>
+            <td><a href="https://leetcode.cn/problems/maximal-square/">221. 最大正方形</td>
+            <td>O(nn)</td>
+            <td>O(nn)</td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/221.md">medium</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/221-dp.cpp">cpp(dp)</a></td>
+        </tr>
+        <tr>
             <td>721. 合并账户</td>
             <td></td>
             <td></td>
