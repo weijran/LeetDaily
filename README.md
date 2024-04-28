@@ -51,12 +51,12 @@
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/726-stackandmap.cpp">cpp(栈与哈希)</a></td>
         </tr>
         <tr>
-            <td><a href="https://leetcode.cn/problems/push-dominoes/description/">838. 推骨牌</td>
+            <td><a href="https://leetcode.cn/problems/push-dominoes/description/">838. 推多米诺</td>
             <td>O(n)</td>
             <td>O(n)</td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/838.md">medium</a></td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/838-On2.cpp">cpp(O(n^2)模拟)</a></td>
-            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/838-2pointers.cpp">c(双指针)</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/838-2pointers.c">c(双指针)</a></td>
             <td>cpp(搜索)</a></td>
         </tr>
     </tbody>
