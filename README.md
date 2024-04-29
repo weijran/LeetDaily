@@ -5,8 +5,8 @@
     <thead>
         <tr>
             <th>题目</th>
-            <th>时间复杂度</th>
-            <th>空间复杂度</th>
+            <th>最优时间复杂度</th>
+            <th>最优空间复杂度</th>
             <th>思路</th>
             <th colspan="6">代码</th>
         </tr>
@@ -34,6 +34,13 @@
             <td>O(nn)</td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/221.md">medium</a></td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/221-dp.cpp">cpp(dp)</a></td>
+        </tr>
+        <td><a href="https://leetcode.cn/problems/longest-increasing-subsequence/description/">300. 最长递增子序列</td>
+            <td>O(nlogn)</td>
+            <td>O(n)</td>
+            <td>medium</a></td>
+            <td>cpp(经典dp)</td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/300-nlogn-dp.cpp">cpp(二分DAG)</a></td>
         </tr>
         <tr>
             <td>721. 合并账户</td>
