@@ -35,6 +35,14 @@
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/221.md">medium</a></td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/221-dp.cpp">cpp(dp)</a></td>
         </tr>
+        <tr>
+            <td><a href="https://leetcode.cn/problems/h-index/description/">274. H指数</td>
+            <td>O(n)</td>
+            <td>O(n)</td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/274.md">medium</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/221-On.cpp">cpp(hash)</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/274-nlogn-binaryans.cpp">cpp(二分答案)</a></td>
+        </tr>
         <td><a href="https://leetcode.cn/problems/longest-increasing-subsequence/description/">300. 最长递增子序列</td>
             <td>O(nlogn)</td>
             <td>O(n)</td>
