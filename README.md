@@ -40,7 +40,7 @@
             <td>O(n)</td>
             <td>O(n)</td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/analysis/274.md">medium</a></td>
-            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/221-On.cpp">cpp(hash)</a></td>
+            <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/274-On.cpp">cpp(hash)</a></td>
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/274-nlogn-binaryans.cpp">cpp(二分答案)</a></td>
         </tr>
         <td><a href="https://leetcode.cn/problems/longest-increasing-subsequence/description/">300. 最长递增子序列</td>
