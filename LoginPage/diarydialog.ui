@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DiaryDialog</class>
+ <widget class="QWidget" name="DiaryDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>376</width>
+    <height>512</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>379</width>
+     <height>512</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>:/pic/PageD-bg.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>376</width>
+     <height>512</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="pic/all.qrc">:/pic/PageD-lookDiary.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="body">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>311</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit {
+	border-radius: 3px;
+	padding: 5px;
+	font: 17px &quot;Microsoft YaHei&quot;;
+	color: white;
+	background-color: transparent;
+}</string>
+   </property>
+   <property name="plainText">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>30</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {  
+    border: none;
+    border-radius: 3px;  
+    padding: 10px 5px; /* 上下 padding 大于左右 padding，以模拟垂直居中的效果 */  
+    font: 20px &quot;Microsoft YaHei&quot;;  
+    color: white;  
+    background-color: transparent; /* 注意背景色是否透明 */  
+}  
+  
+QPushButton:hover {  
+    background-color: transparent;  
+}  
+  
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QSlider" name="horizontalSlider">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>446</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSlider::groove:horizontal { /* 注意：groove 不是标准 QSS 属性，可能需要替换为其他元素 */  
+    height: 12px;   
+    background: rgba(156, 9, 78, 100); 
+		left: 0px; 
+		right: 0px;
+	border-radius:6px;   
+
+}  
+  
+QSlider::handle:horizontal {  
+    width: 18px;   
+    height: 18px;  
+	margin-top: -3px;  
+	margin-bottom: -3px; 
+    border-image: url(:/pic/slider-handle.png);  
+    /* 其他样式属性... */  
+}  
+  
+QSlider::sub-page:horizontal {  
+    background: rgba(0, 200, 205, 1); 
+border-radius:6px;    
+    /* 其他样式属性... */  
+}</string>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <number>5</number>
+   </property>
+   <property name="pageStep">
+    <number>2</number>
+   </property>
+   <property name="value">
+    <number>4</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_close">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>442</y>
+     <width>100</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {  
+    border: none;  
+    border-radius: 15px; /* 圆角 */  
+    padding: 0px 0px 0px 10px; /* 上内边距、右内边距、下内边距、左内边距 */  
+    color: rgb(255, 255, 255); /* 字体颜色 */  
+    font: 14px &quot;Microsoft YaHei&quot;; /* 字体大小和名称 */  
+    text-align: center;  
+    background: transparent; /* 这里可以省略，因为后面会设置背景图片 */  
+    background-image: url(:/pic/btn-pinkcyon2-normal.png); /* 设置背景图片 */  
+	background-repeat:no-repeat;
+}  
+  
+QPushButton:hover {  
+    background-image: url(:/pic/btn-pinkcyon2-hover.png); /* 鼠标悬停时改变背景图片 */  
+	background-repeat:no-repeat;
+}</string>
+   </property>
+   <property name="text">
+    <string>关闭 </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {  
+    border: none;
+    border-radius: 3px;  
+    padding: 10px 5px; /* 上下 padding 大于左右 padding，以模拟垂直居中的效果 */  
+    font: 16px &quot;Microsoft YaHei&quot;;  
+    color: white;  
+    background-color: transparent; /* 注意背景色是否透明 */  
+}  
+  
+QPushButton:hover {  
+    background-color: transparent;  
+}  
+  
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="pic/all.qrc"/>
+ </resources>
+ <connections/>
+</ui>

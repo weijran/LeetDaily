@@ -1,0 +1,58 @@
+#ifndef API_H
+#define API_H
+
+#include <string>
+#include <vector>
+
+struct point{
+    int x, y;
+};
+
+struct buildingInfo{
+    int x, y;
+    std::string name;
+};
+
+struct diarylist{
+    int id; //日记全局唯一编号
+    std::string title, abstract, author; //日记信息
+    int hot_value, remark; //日记属性（热度、评价分数）
+    std::string publication_time, publication_position;//日记属性（发表时间，发表位置<即所对应景区的名称>）
+};
+struct destlist{
+    std::string destName;
+    int hot_value, remark;
+};
+
+
+
+struct routePlanResult{
+    std::vector<point> v1, v2;
+    int d1, t1, d2, t2;
+};
+
+struct facilityInfo{
+    std::string name;
+    int distance;
+    //point p; 如果想在图上标出，那么加上
+};
+
+struct diaryDetail{
+    std::string title;
+    std::string body;
+};
+
+bool _login(std::string username, std::string password);
+bool _regist(std::string username, std::string password);
+std::vector<std::string> _get_recomand_30();
+std::vector<buildingInfo> _get_all_building_of(std::string Position);
+std::vector<destlist> _get_result_of_searching_destination(std::string keyword, int searchType, int sortType);
+std::vector<diarylist> _get_result_of_searching_diary(std::string keyword, int searchType, int sortType);
+routePlanResult _get_shortest_route_by(std::string input, std::string Position, int vehicleType);
+std::vector<facilityInfo> _get_facility_near_by(std::string name, int buildingID, int selectType);
+diaryDetail _get_diary_full_text(int id);
+std::string _get_current_user();
+std::string _get_current_destination();
+void _set_current_position()
+
+#endif // API_H
