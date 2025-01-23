@@ -1,6 +1,5 @@
-# 冰糖雪梨的做题笔记（LeetDaily）
+# 冰糖雪梨的leetcode做题笔记
 
-### Leetcode 主站
 <table>
     <thead>
         <tr>
@@ -74,21 +73,6 @@
             <td><a href="https://github.com/weijran/LeetDaily/blob/c%2B%2B/solves/838-2pointers.c">c(双指针/滑窗)</a></td>
             <td>cpp(搜索)</a></td>
         </tr>
-    </tbody>
-</table>
-
-### Leetcode LCR（《剑指offer》）
-<table>
-    <thead>
-        <tr>
-            <th>题目</th>
-            <th>时间复杂度</th>
-            <th>空间复杂度</th>
-            <th>思路</th>
-            <th colspan="6">代码</th>
-        </tr>
-    </thead>
-    <tbody>
         <tr>
             <td><a href="https://leetcode.cn/problems/0ynMMM/description/">LCR 039. 柱状图中最大的矩形</td>
             <td colspan="8">同主站84题</td>
